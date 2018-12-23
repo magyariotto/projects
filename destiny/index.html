@@ -1,0 +1,52 @@
+﻿<canvas id="destiny" width="500px" height="500px" style="border: 1px solid black;"><canvas>
+
+<script>
+	var destiny = document.getElementById("destiny").getContext('2d');
+	destiny.font = '30px Arial';
+	var WIDTH = 500;
+	var HEIGHT = 500;
+	
+	
+	//player
+	var x = 50;
+	var spdX = 30;
+	var y = 50;
+	var spdY = 5;
+	var name = 'P';
+	
+	//enemy
+	var enemy_x = 150;
+	var enemy_spdX = 10;
+	var enemy_y = 350;
+	var enemy_spdY = 15;
+	var enemy_name = 'E';
+	
+	
+	setInterval(update,10);
+	
+	function update(){
+		//player
+		x += spdX;
+		y += spdY;
+		destiny.fillText(name,x,y);
+		
+		if(x < 0 || x > WIDTH){
+			spdX = -spdX;
+		}
+		if(y < 0 || y > HEIGHT){
+			spdY = -spdY;
+		}
+		
+		//enemy
+		enemy_x += enemy_spdX;
+		enemy_y += enemy_spdY;
+		destiny.fillText(enemy_name,enemy_x,enemy_y);
+		
+		if(enemy_x < 0 || enemy_x > WIDTH){
+			enemy_spdX = -enemy_spdX;
+		}
+		if(enemy_y < 0 || enemy_y > HEIGHT){
+			enemy_spdY = -enemy_spdY;
+		}
+	}
+</script>

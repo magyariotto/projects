@@ -1,0 +1,18 @@
+Gombok betütipúsa: Calvin + méret: 96.
+<span onclick="this.parentElement.style.display='none'">x</span> home/kezdõlap,rövid tabs scripthez blok bezáró gomb bövitmény.
+uzlet uzlet reszenek a haterehez kep pozicio: background-position: calc(100% + 15px) calc(100% + 150px);
+
+
+Gyartelep gomb: Brandley Hnaf ITC + 115size +style: Bold/Italic
+Termeles orankent: alaptermeles*banyaszint^2
+Fejlesztesi koltseg keplete: banyasorszam^2*alaptermeles*kovetkezoszint^3
+
+
+
+
+Flotta:
+https://www167.lunapic.com/editor/?action=text
+Font: LEwinsky
+size: 115
+position : x:266 - y:387
+color: #FFFFFF  (feher)

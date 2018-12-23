@@ -1,0 +1,43 @@
+#fodiv{
+	color: white;
+	height: 550px;
+	width: 1412px;
+	border-style: outset;
+	border-width: 5px;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+#hozzaaddiv{
+	color: white;
+	min-height: 210px;
+	min-width: 1390px;
+	border-style: outset;
+	border-width: 5px;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+::-webkit-scrollbar {
+	width: 15px;
+	cursor: pointer;
+}
+ 
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 60px rgba(0,0,0,0.2); 
+	border-radius: 15px;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 15px;
+	-webkit-box-shadow: inset 0 0 20px rgba(0,0,0,1); 
+}
+::-webkit-scrollbar-button:start {
+	border-radius: 100px 100px 0px 0px;
+	-webkit-box-shadow: inset 0 0 20px rgba(0,0,0,1); 
+}
+::-webkit-scrollbar-button:end {
+	border-radius: 0px 0px 100px 100px;
+	-webkit-box-shadow: inset 0 0 20px rgba(0,0,0,1); 
+}

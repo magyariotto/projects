@@ -1,0 +1,3 @@
+﻿Felszerelés
+    raj, hajó kivétel
+raj leszerelés törlés adatbázisból

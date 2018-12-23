@@ -1,0 +1,25 @@
+﻿#munkatabla1{
+	color: white;
+	border-width: 2px;
+	border-style: solid;
+	text-align: center;
+	margin: 20 auto;
+	width: 420px;
+	height: 100px;
+}
+#munkatabla2{
+	color: white;
+	border-width: 2px;
+	border-style: solid;
+	text-align: center;
+	margin: 20 auto; 
+    padding: 2;  
+    width: 750px;   
+    height: 200px; 
+}
+#munkatd{
+	border-style: solid;
+	border-width: 1px;
+	width: 370px;
+	height: 95px;
+}

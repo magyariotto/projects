@@ -1,0 +1,104 @@
+﻿#portya_tabla1{
+	margin: 0 auto;
+}
+#portya_div1 , #portya_div2 , #portya_div3{
+	border-width: 1px;
+	border-style: double;
+	width: 350px;
+	height: 400px;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	display: table-cell;
+}
+#portya_div1a{
+	border-width:1px;
+	border-style:double;
+	background:black;
+}
+#portya_div2a , #portya_div3a{
+	border-width:1px;
+	border-style:double;
+}
+#portya_div1_tabla1 , #portya_div2_tabla2 , #portya_div3_tabla3{
+	max-width: 350px;
+	max-height: 400px;
+}
+#portya_div1_td1 {
+	border-width: 1px;
+	border-style: double;
+	width: 350px;
+	height: 175px;
+	color: white;
+	background-image: url('../img/urleny.jpg');
+	background-size: 100% 100%;
+}
+#urlenyvadaszat_gomb{
+	background: black;
+	color: white;
+	float: left;
+	margin: 145 0 0 83;
+}
+#portya_div2_td1{
+	border-width: 1px;
+	border-style: double;
+	width: 350px;
+	height: 175px;
+	color: white;
+	background-image: url('../img/kaloz.jpg');
+	background-size: 100% 100%;
+}
+#portya_div1_td2 , #portya_div2_td2{
+	border-width: 1px;
+	border-style: double;
+	width: 350px;
+	height: 200px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+#portya_urleny{
+	margin: 0 auto;
+	color: white;
+}
+#portya_urleny_tabla1 , #portya_kaloz_tabla1{
+	border-width: 1px;
+	border-style: double;
+	color: white;
+	width: 400px;
+	height: 420px;
+	margin: 0 auto;
+	display: table-cell;
+}
+#portya_urleny_tabla1_td1 , #portya_kaloz_tabla1_td1{
+	border-width: 1px;
+	border-style: double;
+	width: 396px;
+	height: 20px;
+}
+#portya_urleny_tabla1_td2 , #portya_kaloz_tabla1_td2{
+	border-width: 1px;
+	border-style: double;
+	width: 396px;
+	height: 200px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+#urlenyvadaszat_gomb2{
+	background: black;
+	color: white;
+	float: left;
+	margin: 175 0 0 135;
+}
+#portya_urleny_eredmeny_tabla{
+	width:550px;
+	height:50px;
+	color: white;
+	margin: 0 auto;
+	border-width:1px;
+	border-style:double;
+}
+#kalozvadaszat_gomb{
+	background: black;
+	color: white;
+	float: left;
+	margin: 165 0 0 63;
+}

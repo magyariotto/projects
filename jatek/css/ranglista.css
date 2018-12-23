@@ -1,0 +1,46 @@
+﻿#menu_table {
+	margin-bottom: -1px;
+	margin-right: -1px;
+	padding: 0;
+	line-height: 0px;
+	font-size: 0px;
+	display: inline-block;
+}
+#menu_table li a {
+	line-height: 16px;
+	font-size: 13px;
+	font-family: Arial,sans-serif;
+	text-decoration: none;
+	color: white;
+	font-style: normal;
+	font-weight: bold;
+	padding: 7px 30px 7px 15px;
+	display: block;
+	cursor: pointer;
+	white-space: nowrap;
+}
+#menu_table li:hover div.gomb {
+	background-color: #222222;
+	box-shadow: none;
+}
+#menu_table li {
+	float: left;
+	display: inline-block;
+}
+#felhasznalok_tabla{
+	width: 1350px;
+}
+#th_szamok{
+	font-size: 13px;
+	font-family: Arial,sans-serif;
+	width: 100px;
+}
+#th_username{
+	width: 140px;
+	text-align: center;
+	font-size: 13px;
+	font-family: Arial,sans-serif;
+}
+#oldalak{
+	text-align: center;
+}

@@ -1,0 +1,142 @@
+﻿#tabla1{
+	border-width: 6px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	height: 150px;
+	width: 1400px;
+	background-color: rgb(26, 26, 26);
+	margin: 0px auto;
+	color: white;
+}
+#tabla2{
+	margin: 0px auto;
+	min-width: 930px;
+	min-height: 130px;
+	width: 1400px;
+	height: 100%;
+}
+#tabla3{
+	border-width: 6px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(26, 26, 26);
+	width: 300px;
+	height: 150px;
+	margin: 0 auto;
+}
+#tabla4{
+	border-width: 2px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(26, 26, 26);
+	width: 1080px;
+	height: 100%;
+	margin: 0px auto;
+	color: white;
+}
+#tabla5{
+	border-width: 4px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(26, 26, 26);
+	float: left;
+	margin: 0px 0px;
+	width: 1080px;
+	height: 100%;
+	text-align: center;
+}
+#tabla6{
+	border-width: 4px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(26, 26, 26);
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+	color: white;
+}
+#td1{
+	width: 1400px;
+	height: 18px;
+}
+#td2{
+	width: 320px;
+	height: 150px;
+}
+#td3{
+	width: 1078px;
+	height: 100%;
+	margin: 0px 5px;
+}
+#td4{
+	width: 100%;
+	height: 29px;
+}
+#td5{
+	width: 100%;
+	height: 100px;
+}
+#td7{
+	width: 100px;
+	height: 150px;
+	text-align: center;
+	background-image: url('../img/infoboard.jpg');
+	background-size: 100% 100%;
+}
+#td8{
+	width: 70px;
+	height: 50%;
+	text-align: center;
+}
+#td9{
+	border-width: 1,1px;
+	border-style: ridge;
+	width: 70%;
+	height: 50%;
+	text-align: center;
+}
+#nd{
+	width: 143px;
+}
+#td10{
+	width: auto;
+}
+#td11{
+	float: right;
+}
+#div1{
+	float: left;
+	display: inline;
+	height: 1px;
+	margin: 0px 0px 0px 0px;
+}
+#menu_gomb{
+	width: 148px;
+	height: 100px;
+	display: inline;
+}
+#menu_gomb:hover{
+	border-radius: 14px 14px 14px 14px;
+	box-shadow: 0 0 3px 3px white;
+}
+#avatar_tabla{
+	color:white;
+	width: 100px;
+	height: 140px;
+	text-align: center;
+}
+#avatar_tabla_td1{
+	width: 100px;
+	height: 10px;
+	text-align: center;
+}
+#avatar_tabla_td2{
+	width: 100px;
+	height: 10px;
+	text-align: center;
+}

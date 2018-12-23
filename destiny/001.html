@@ -1,0 +1,37 @@
+﻿<html>
+<body>
+	<canvas id="canvas"></canvas>
+	<script>
+var canvas = null;
+var context = null;
+var frameRate = 1000/30;
+var frame = 0;
+var assets = ['hajo.png',
+			  'kep.png'];
+var frames = [];
+
+var onImageLoad = function(){
+	console.log("kep");
+}
+
+var setup = function() {
+	canvas = document.getElementById("canvas");
+	context = canvas.getContext('2d');
+	canvas.width = window.innerWidth;
+	canvas.height = window.innerHeight;
+	
+	for(var i = 0; i < assets.length; i++){
+		frames.push(new Image());
+		frames[i].onloan = onImageLoad;
+		frames[i].src = assets[i];
+	}
+	setInterval(animate, frameRate);
+};
+var animate = function(){
+	context.drawImage(frames[frame], 192, 192);
+	frame = (frame + 1) % frames.length;
+}
+setup();
+	</script>
+</body>
+</html>

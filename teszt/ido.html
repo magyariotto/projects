@@ -1,0 +1,10 @@
+<script>
+now = new Date();
+localtime = now.toString();
+utctime = now.toGMTString();
+document.write("Az ido: " + utctime);
+ora = now.getHours();
+perc = now.getMinutes();
+masodperc = now.getSeconds();
+document.write(ora + ":" + perc + ":" + masodperc);
+</script>

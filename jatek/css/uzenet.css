@@ -1,0 +1,47 @@
+﻿#uzenettabla1{
+	margin: 10px auto;
+	border-width: 2px;
+	border-style: ridge;
+	width: 1135px;
+}
+#uzenettd1{
+	float: left;
+	width: 99%;
+	height: 25px;
+	border-width: 5px;
+	border-style: ridge;
+}
+#uzenettd2{
+	margin: 5px 12px;
+	float: left;
+	width: 100%;
+}
+#uzenetdiv1{
+	float: left;
+	text-align: left;
+	margin: 2px 90px;
+	display: inline;
+}
+#uzenetdiv2{
+	float: left;
+	text-align: left;
+	margin: 2px 60px;
+	display: inline;
+}
+#uzenetdiv3{
+	float: right;
+	text-align: left;
+	margin: 2px 100px;
+	display: inline;
+}
+#uzenetdiv4{
+	float: right;
+	text-align: left;
+	margin: 2px 60px;
+	display: inline;
+}
+#uzenetdiv5{
+	margin: 0px auto;
+	width: 1000px;
+	word-wrap: break-word;
+}

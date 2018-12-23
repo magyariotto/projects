@@ -1,0 +1,177 @@
+﻿#kozepe{
+	border-width: 6px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(26, 26, 26);
+	width: 1405px;
+	height: 550px;
+}
+#alja{
+	border-width: 6px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(26, 26, 26);
+	width: 1405px;
+	height: 25px;
+	color: white;
+	text-align: center;
+}
+#td_menu{
+	border-style: inset;
+	border-width: 2px;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	width: 282px;
+	height: 536px;
+}
+#td_oldal{
+	border-style: outset;
+	border-width: 3px;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+}
+#td_oldal_table{
+	color: white;
+	border-style: inset;
+	border-width: 3px;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	width: 1102px;
+	height: 536px;
+}
+#td_nyersi_kijelzo{
+	border-style: outset;
+	border-width: 3px;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	width: 20%;
+	height: 50px;
+}
+#td_lap{
+	border-style: inset;
+	border-width: 3px;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	width: 1102px;
+	height: 100%;
+}
+#menu_lista_elem{
+	border-width: 4px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	width: 268px;
+	height: 45px;
+	cursor: pointer;
+	text-align: center;
+}
+.gomb{
+	padding-top: 7px;
+	height: 100%;
+	color: orange
+}
+.gomb:link{
+	color: orange;
+	text-decoration: none;
+}
+.gomb:visited{
+	color: orange;
+}
+.gomb:hover{
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0 0 10px 3px white;
+	color: green;
+}
+#banya_fotabla{
+	border-style: outset;
+	border-width: 5px;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	width: 1084px;
+	height: 465px;
+}
+#banya_lista{
+	border-style: inset;
+	border-width: 4px;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	width: 653px;
+}
+#banya_lista_div{
+	height: 442px;
+	overflow-y: scroll;
+	cursor: pointer;
+}
+::-webkit-scrollbar {
+	width: 15px;
+	cursor: pointer;
+}
+ 
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 60px rgba(0,0,0,0.2); 
+	border-radius: 15px;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 15px;
+	-webkit-box-shadow: inset 0 0 20px rgba(0,0,0,1); 
+}
+::-webkit-scrollbar-button:start {
+	border-radius: 100px 100px 0px 0px;
+	-webkit-box-shadow: inset 0 0 20px rgba(0,0,0,1); 
+}
+::-webkit-scrollbar-button:end {
+	border-radius: 0px 0px 100px 100px;
+	-webkit-box-shadow: inset 0 0 20px rgba(0,0,0,1); 
+}
+#banya_navigacioslap{
+	border-style: outset;
+	border-width: 2px;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgba(0, 0, 30, 0.2);
+	color: white;
+}
+#banya_modul{
+	border-style: outset;
+	border-width: 4px;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 198px;
+	height: 144px;
+	cursor: pointer;
+	color: white;
+	background-image: url('../img/banya_iridium.jpg');
+	background-size: 100% 100%;
+}
+#banya_modul:hover{
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0 0 10px 3px white;
+	color: green;
+}
+#termeles_table_001{
+	color: white;
+	width: 370px;
+	height: 50px;
+	text-align: center;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-width: 3px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+}
+#termeles_td_001{
+	width: 170px;
+}
+#termeles_td_002{
+	width: 170px;
+	border-width: 2px;
+	border-style: inset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	cursor: pointer;
+}

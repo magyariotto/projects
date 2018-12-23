@@ -1,0 +1,179 @@
+﻿#kozep_div1{
+	border-width: 6px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(26, 26, 26);
+	width: 1405px;
+	height: 550px;
+}
+#alja_div{
+	border-width: 6px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(26, 26, 26);
+	width: 1405px;
+	height: 25px;
+	color: white;
+	text-align: center;
+}
+#kozep_tabla1{
+	color: white;
+	text-align: center;
+}
+#menu_td{
+	border-width: 2px;
+	border-style: inset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	width: 290px;
+	height: 542px;
+}
+#uzlet_td{
+	border-width: 3px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	width: 1097px;
+	height: 542px;
+}
+#uzlet_div{
+	border-width: 3px;
+	border-style: inset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	width: 1097px;
+	height: 530px;
+    overflow: auto;
+}
+#menu_lista_tabla{
+	margin: -265px auto;
+	color: white;
+	text-align: center;
+}
+#menu_lista_elem{
+	border-width: 4px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	width: 270px;
+	height: 45px;
+	cursor: pointer;
+}
+#uzlet_sor{
+	border-width: 3px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	width: 1084px;
+	height: 80px;
+	text-align: center;
+}
+#td_kep{
+	border-width: 2px;
+	border-style: inset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	width: 80px;
+	height: 70px;
+}
+#td_reszletek{
+	border-width: 1px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	width: 990px;
+	height: 70px;
+}
+#td_targyneve{
+	border-width: 1px;
+	border-style: inset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	width: 990px;
+	height: 20px;
+}
+#td_reszletek{
+	border-width: 1px;
+	border-style: inset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	width: 990px;
+	height: 45px;
+}
+#td_megnevezes{
+	border-width: 1px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	width: 745px;
+	height: 20px;
+	color: white;
+	text-align: center;
+}
+#td_ara{
+	border-width: 1px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	width: 220px;
+	height: 20px;
+	color: white;
+	text-align: center;
+}
+#reszletek_td{
+	border-width: 1px;
+	border-style: inset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	width: 990px;
+	height: 45px;
+}
+#td_leiras{
+	border-width: 1px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	width: 745px;
+	height: 45px;
+}
+#td_nemelerheto{
+	border-width: 1px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	width: 975px;
+	height: 45px;
+	text-align: center;
+}
+#td_gomb{
+	border-width: 1px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	width: 220px;
+	height: 45px;
+	text-align: center;
+}
+#vasarlas{
+	border-width: 1px;
+	border-style: double;
+	border-radius: 10px 10px 10px 10px;
+	background-color: transparent;
+	color: white;
+	outline: none;
+	transform: translateY(+7px);
+	cursor: pointer;
+}
